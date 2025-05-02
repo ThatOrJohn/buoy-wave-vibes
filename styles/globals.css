@@ -12,3 +12,13 @@ body {
 #map {
   height: 100%;
 }
+
+/* Ensure dark mode works */
+.dark {
+  background-color: #1a202c;
+}
+
+/* SVG text for map bubbles */
+svg text {
+  user-select: none;
+}
